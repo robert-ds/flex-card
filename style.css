@@ -17,6 +17,7 @@ body {
 .card {
 	background-color: #fff;
 	box-shadow: 2px .8rem 1rem rgba(0,0,0, .025);
+	margin: 10rem auto;
 }
 
 .card__publication {
