@@ -94,3 +94,16 @@ body {
 .card__cta:hover span {
 	transform: translateX(.5rem);
 }
+
+@media screen and (min-width: 37.5rem) {
+	.card {
+		display: grid;
+		grid-auto-flow: column;
+		max-width: 75rem;
+	}
+
+	.card__publication {
+		width: 25rem;
+		height: initial;
+	}
+}
