@@ -32,3 +32,38 @@ body {
 	object-fit: cover;
 	transition: transform .5s;
 }
+
+.card:hover .card__publication img {
+	transform: scale(1.5);
+}
+
+.card__publication > div {
+	background: linear-gradient(to right button, rgba(255, 119, 48 .8), rgba(255, 185, 0, .8));
+	font-size: 1.4rem;
+	font-weight: bold;
+	color: #fff;
+	position: absolute;
+	inset: 0;
+	padding: 1rem;
+}
+
+.card__publication i {
+	margin-right: 1rem;
+}
+
+.card__publication span {
+	display: block;
+}
+
+.card__author {
+	margin-bottom: .5rem;
+}
+
+.card__info {
+	position: relative;
+	padding: 2rem 3rem;
+}
+
+.card__title {
+	font-size: 3rem;
+}
